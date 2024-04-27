@@ -23,7 +23,7 @@ modules:
       - type: git
         url: https://github.com/mateussouzaweb/nicedeck.git
         tag: v0.0.20
-        commit: 8eb94958f23a90b5512e181cf888320c88807017
+        commit: 806de1152436590fbaa86c0f6fc29804f4a57020
       - type: file
         path: com.mateussouzaweb.NiceDeck.metainfo.xml
     builddir: true
