@@ -11,6 +11,10 @@
     <url type="bugtracker">https://github.com/mateussouzaweb/nicedeck/issues</url>
     <url type="homepage">https://github.com/mateussouzaweb/nicedeck</url>
     <launchable type="desktop-id">com.mateussouzaweb.NiceDeck.desktop</launchable>
+    <icon type="stock">com.mateussouzaweb.NiceDeck</icon>
+    <categories>
+        <category>Game</category>
+    </categories>
     <recommends>
         <control>pointing</control>
         <control>keyboard</control>
