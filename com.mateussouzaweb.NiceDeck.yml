@@ -22,8 +22,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/mateussouzaweb/nicedeck.git
-        tag: v0.0.20
-        commit: 806de1152436590fbaa86c0f6fc29804f4a57020
+        tag: v0.0.21
+        commit: adc34c90a4cce1221979488c55ca5b998b36d5e8
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -32,7 +32,7 @@ modules:
     builddir: true
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/golang/bin/go build -o bin/nicedeck cmd/main.go
+      - /usr/lib/sdk/golang/bin/go build -tags=gtk -o bin/nicedeck cmd/main.go
       - install -Dm00755 bin/nicedeck /app/bin/nicedeck
       - mkdir -p /app/share/metainfo/
       - mkdir -p /app/share/icons/hicolor/scalable/apps
